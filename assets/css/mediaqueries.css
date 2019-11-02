@@ -1,5 +1,22 @@
-@media screen and (max-width: 800px) {
-  * {
-    font-family: sans-serif !important;
+@media screen and (max-width: 775px) {
+  .nav-screen-right {
+    display: none;
   }
+
+}
+
+@media screen and (max-width: 600px ) {
+  #sticky-pc {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+
 }
